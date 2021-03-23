@@ -1,1 +1,7 @@
 discord.py
+PyNaCl
+async-timeout
+youtube-dl
+pychalk
+Pillow
+numpy
