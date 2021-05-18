@@ -28,7 +28,7 @@ intents.members = True
 intents.presences = True
 client = commands.Bot(command_prefix=".",intents=intents)
 client.remove_command('help')
-token = "ODIzOTU0MjQyOTkzMzg5NjQ3.YFoVLw.BoHVrnaBLO3gaCmM3PpGmVpx7IY"
+token = "ODIzOTU0MjQyOTkzMzg5NjQ3.YFoVLw.jOrMjEpkFnLkJs1awxvZupLcB20"
 queue = []
 
 
@@ -39,7 +39,7 @@ async def on_ready():
     channel = client.get_channel(778982572742672406)
     # await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="a movie"))
     membercount = str(dark.member_count)
-    await client.change_presence(status = discord.Status.idle, activity=discord.Activity(type=discord.ActivityType.watching, name=f"Watching PieWeb.ir"))
+    await client.change_presence(status = discord.Status.idle, activity=discord.Activity(type=discord.ActivityType.watching, name=f" PieWeb.ir"))
     # channel = client.get_channel(802165998333460551)
     # print(channel)
     # await channel.connect()
